@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300')
+
+#Users
+    display: flex
+    flex-direction: column
+    height: 100vh
+
+#carousel
+    margin: auto
+    overflow: hidden
+    position: relative
+    width: 88vw
+    height: 25vw
+    // top: 50%
+    // transform: translateY(-50%)
+
+    .box
+        position: absolute
+        transition: transform 1s, left 1s, opacity 1s, z-index 0s
+        opacity: 1
+        transform: translate(50%)
+        cursor: pointer
+
+        .img
+            transition: width 1s, height 1s
+            background-position: center
+            background-size: cover
+            position: relative
+            border-radius: 5px
+
+            .UsersList_txt
+                font-family: 'Roboto'    
+                font-weight: 100
+                color: white
+                position: absolute
+                bottom: 10%
+                transition: font-size 1s
+
+            #UsersList_username
+                left: 10%
+                
+            #UsersList_firstSecondName
+                right: 10%
+
+    #hideLeft
+        left: 0%
+        opacity: 0
+        transform: translateY(110%) translateX(-50%)
+        .img
+            width: 8vw
+            height: 8vw
+
+            .UsersList_txt
+                font-size: 0.8vw 
+
+    #prevLeftSecond
+        z-index: 4
+        left: 15%
+        transform: translateY(60%) translateX(-50%)
+        opacity: .7
+        
+        .img
+            width: 12vw
+            height: 12vw
+
+            .UsersList_txt
+                font-size: 1.1vw 
+
+    #prev  
+        z-index: 5
+        left: 30%
+        transform: translateY(15%) translateX(-50%)
+        
+        .img
+            width: 20vw
+            height: 20vw
+
+            .UsersList_txt
+                font-size: 1.4vw 
+
+    #selected
+        z-index: 10
+        left: 50%
+        transform: translateY(0px) translateX(-50%)
+
+        .img
+            width: 25vw
+            height: 25vw
+
+            .UsersList_txt
+                font-size: 1.8vw 
+
+    #next
+        z-index: 5
+        left: 70%
+        transform: translateY(15%) translateX(-50%)
+
+        .img
+            width: 20vw
+            height: 20vw
+
+            .UsersList_txt
+                font-size: 1.4vw 
+
+    #nextRightSecond
+        z-index: 4
+        left: 85%
+        transform: translateY(60%) translateX(-50%)
+        opacity: .7
+
+        .img
+            width: 12vw
+            height: 12vw
+
+            .UsersList_txt
+                font-size: 1.1vw 
+
+    #hideRight
+        left: 100%
+        opacity: 0
+        transform: translateY(110%) translateX(-50%)
+        
+        .img  
+            width: 8vw
+            height: 8vw
+
+            .UsersList_txt
+                font-size: 0.8vw 
+
+
+// .DisplayUser_card
+//     width: 30vw
+//     height: 30vw
+//     background-color: white
+//     border-radius: 20px
+//     display: flex
+//     flex-direction: column
+
+// .DisplayUser_img
+//     width: 30vw
+//     height: 30vw
+//     position: absolute
+//     transition: transform 1s, left 1s, opacity 1s, z-index 0s
+//     opacity: 1
+//     border: 1px solid purple
+//     transform: translate(50%)
+
+// .DisplayUser_blockTxt
+//     display: flex
+//     justify-content: space-around
+//     margin: auto 0
+

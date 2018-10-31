@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300')
+
+#Movies_block
+    // border: 1px solid red
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+
+    .Movies_card
+        display: flex
+        // border: 1px solid purple
+        position: relative
+        margin: 15px 5px
+
+        .Movies_img
+            height: 33.2vh
+            width: 22.1vh
+            transition: transform 0.7s
+            // border: 1px solid brown
+        
+        .Movies_info
+            transition: transform 0.7s, background-color 0.5s ease
+            position: absolute
+            z-index: 2
+            cursor: pointer
+            // border: 1px solid blue
+            right: 0
+            top: 0
+            height: 100%
+            width: 100%
+            font-family: 'Roboto'
+            font-weight: 100
+            font-size: 1.7vh
+            color: white
+
+            .Movies_rating
+                position: absolute
+                top: 10px
+                left: 30px
+                display: flex
+
+                .Movies_star
+                    font-size: 1.3vh
+                    position: absolute
+                    left: -2vh
+                    top: -0.2vh
+
+            .Movies_seen
+                position: absolute
+                top: 10px
+                right: 10px
+            
+            .Movies_title
+                position: absolute
+                top: 5.5vh
+                font-weight: 300
+                left: 50%
+                width: 90%
+                text-align: center
+                transform: translateX(-50%)
+
+            .Movies_play
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%, -50%)
+                width: 10vh
+                height: 10vh
+
+            .Movies_year
+                position: absolute
+                bottom: 7vh
+                left: 50%
+                transform: translateX(-50%)
+        
+            .Movies_genre
+                position: absolute
+                top: 28vh
+                left: 50%
+                transform: translateX(-50%)
+                font-size: 1.5vh
+                width: 90%
+                text-align: center
+
+    #Movies_noMovies
+        margin: 0 auto
+        text-align: center
+        color: rgb(220, 220, 220)
+        font-family: 'Roboto'
+        font-weight: 100
+        font-size: 1.7vh
+
+
+
+@media screen and (min-width: 800px)
+
+    #Movies_block
+        display: inline-block
+        margin-left: 44px
+        margin-right: 44px
+
+        .Movies_card
+            display: inline-block
+            margin: 5px

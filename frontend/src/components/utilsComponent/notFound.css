@@ -1,0 +1,25 @@
+#NotFound_frame {
+	display: flex;
+	height: 100vh
+}
+
+#NotFound_errorBox {
+	margin: auto;
+	width: 45em;
+	font-family: Arial,sans-serif;
+	color: #f7f7f7;
+}
+
+#NotFound_errorBox > h1 {
+	font-weight: 700;
+	font-size: 28px;
+}
+
+#NotFound_errorBox {
+	font-weight: 700;
+	min-width: 80px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: #b3b3b3;
+}
