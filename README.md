@@ -27,7 +27,7 @@ The database is in postgresql
 
 ### Result
 
-<p align='center'><https://media.giphy.com/media/sRFFz3kpBGs6UOIFHk/giphy.gif" alt='netflix42'/></p>
+<p align='center'><img src="https://media.giphy.com/media/sRFFz3kpBGs6UOIFHk/giphy.gif" alt='netflix42'/></p>
 <p align='center'><i>Sign up</i></p>
 <br/>
 <br/>
