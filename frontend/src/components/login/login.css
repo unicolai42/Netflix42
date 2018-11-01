@@ -7,7 +7,7 @@
   .Login_background #Login_logo {
     margin: 12vh auto; }
     .Login_background #Login_logo img {
-      width: 23vh; }
+      width: 15vh; }
   .Login_background #Login_form {
     margin: 0 auto;
     border-radius: 0;
@@ -149,7 +149,7 @@
     .Login_background #Login_logo {
       position: absolute;
       left: 50px;
-      top: 20px;
+      top: 25px;
       margin: 0; }
     .Login_background #Login_form {
       margin: 14vh auto auto auto; }
@@ -172,7 +172,7 @@
     .Login_background #Login_logo {
       position: absolute;
       left: 50px;
-      top: 20px;
+      top: 25px;
       margin: 0; }
     .Login_background #Login_form {
       margin: 14vh auto auto auto; }

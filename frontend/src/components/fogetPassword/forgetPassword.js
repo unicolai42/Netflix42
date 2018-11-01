@@ -8,7 +8,7 @@ class ForgetPassword extends React.Component{
 		if (!localStorage.getItem("token")){
 			return(
 				<div className='ForgetPwd_background'>
-					<Link id='ForgetPwd_logo' to='/'><img src="https://fontmeme.com/permalink/180901/3bd2426f867386d0ba5efba6386554cd.png" alt="hypertube"/></Link>
+					<Link id='ForgetPwd_logo' to='/'><img src="https://res.cloudinary.com/dzhnhtkyv/image/upload/v1541086474/Netflix42/netflix.logo.png" alt="hypertube"/></Link>
 					<Form />
 					<div id='language' onClick={this.changeLanguage}>{this.props.language.language}<div id='arrowLanguage'/></div>
 				</div>

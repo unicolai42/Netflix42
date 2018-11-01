@@ -7,7 +7,7 @@
   .background #logo {
     margin: 12vh auto; }
     .background #logo img {
-      width: 23vh; }
+      width: 15vh !important; }
   .background #Register_form {
     margin: 0 auto;
     border-radius: 0;
@@ -104,7 +104,7 @@
     .background #logo {
       position: absolute;
       left: 50px;
-      top: 20px;
+      top: 25px !important;
       margin: 0; }
     .background #Register_form {
       margin: 5vh auto auto auto; }
@@ -127,7 +127,7 @@
     .background #logo {
       position: absolute;
       left: 50px;
-      top: 20px;
+      top: 25px !important;
       margin: 0; }
     .background #Register_form {
       margin: 5vh auto auto auto; }

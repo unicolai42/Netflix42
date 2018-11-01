@@ -73,7 +73,7 @@ class Menu extends React.Component{
     render(){
         return(
              <div id="nav">
-                <Link id='logo' to='/search'><img src="https://fontmeme.com/permalink/180901/3bd2426f867386d0ba5efba6386554cd.png" alt="hypertube"/></Link>
+                <Link id='logo' to='/search'><img src="https://res.cloudinary.com/dzhnhtkyv/image/upload/v1541086474/Netflix42/netflix.logo.png" alt="hypertube"/></Link>
                 <div id='language' onClick={this.changeLanguage}>{this.props.language.language}<div id='arrowLanguage'/></div>
                 <div id='trigramMenu' onClick={this.clickOnMenu} onMouseEnter={(!this.state.clicked) ? this.displayMenu : null} onMouseLeave={(!this.state.clicked) ? this.hideMenu : null}>
                     <div id='trigram'></div>
