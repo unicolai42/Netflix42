@@ -5,6 +5,8 @@
 Create an Netflix like from scratch.
 
 Implement all films from Pop Corn Time in the database.
+
+Mobile first responsive website.
 ```
 
 ### Team
