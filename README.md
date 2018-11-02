@@ -72,7 +72,9 @@ cd backend
 npm install
 npm start
 
+
 Terminal 2 :
+
 cd frontend
 npm install
 npm start
