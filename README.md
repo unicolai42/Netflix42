@@ -34,39 +34,3 @@ The database is in postgresql
 <p align='center'><img src="https://media.giphy.com/media/Y4qx3ntmrG9DKovff7/giphy.gif" alt='netflix42'/></p>
 <p align='center'><i>Watching movie + comment</i></p>
 <br/>
-
-
-### Installation
-
-Install the project on your computer (open your terminal then paste this) :
-```
-git clone https://github.com/unicolai42/Tinder42.git Tinder42
-```
-
-Install psql and open it :
-```
-brew install psql
-
-mysql -u [your username] -p
-```
-
-Create a database and close mysql:
-```
-CREATE DATABASE Tinder42;
-
-quit;
-```
-
-Download the database and launch the server:
-```
-node script.js
-
-npm install
-
-npm start (if nodeJS isn't install tape this before -> brew install node)
-```
-
-Open the project in your Navigator :
-```
-http://localhost:3000 (Paste this in the url)
-```
